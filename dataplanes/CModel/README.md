@@ -1,7 +1,7 @@
 This is a reference C implementation of the TurboFlow dataplane (i.e., microflow generator).
 
 Usage: 
-./turboflow <input pcap> <cache size>
+./turboflow *input pcap* *cache size*
 
 - modify dumpMicroflowRecord if you want to save evicted microflows to a file. 
 - see example.sh for an example of running it.
